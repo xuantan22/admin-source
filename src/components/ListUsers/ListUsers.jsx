@@ -8,7 +8,7 @@ import { useEffect } from 'react'
 const ListUsers = () => {
     const [allUsers,setAllUsers] = useState([]);
     const fetchDB =async() =>{
-        await fetch("http://localhost:5000/getallusers")
+        await fetch("https://commerce-backend-154x.onrender.com/getallusers")
         .then((res)=>res.json())
         .then((data)=>{setAllUsers(data)});
  }
@@ -18,7 +18,7 @@ const ListUsers = () => {
  },[])
 
  const removeUser = async (id) => {
-    await fetch("http://localhost:5000/removeuser",{
+    await fetch("https://commerce-backend-154x.onrender.com/removeuser",{
       method:"POST",
       headers:{
         Accept:'application/json',
