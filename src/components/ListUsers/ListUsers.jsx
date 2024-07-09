@@ -4,7 +4,7 @@ import './ListUsers.css'
 import remove_icon from '../../assets/cross_icon.png'
 import { useState } from 'react'
 import { useEffect } from 'react'
-import { API_BASE_URL } from '../../../../commerce-frontend/src/Api'
+import { API_BASE_URL } from '../../config'
 
 const ListUsers = () => {
   const [allUsers, setAllUsers] = useState([]);

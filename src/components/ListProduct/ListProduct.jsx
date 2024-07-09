@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react'
 import './ListProduct.css'
 import edit_icon from '../../assets/edit-246.png'
 import remove_icon from '../../assets/cross_icon.png'
-import { API_BASE_URL } from '../../../../commerce-frontend/src/Api'
+import { API_BASE_URL } from '../../config'
 
 const ListProduct = () => {
 
