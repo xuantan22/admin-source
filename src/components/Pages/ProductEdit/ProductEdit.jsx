@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
 import upload_area from '../../../assets/upload_area.svg'
 import './ProductEdit.css'
-import { API_BASE_URL } from '../../../../../commerce-frontend/src/Api'
+import { API_BASE_URL } from '../../../../commerce-frontend/src/Api'
 const ProductEdit = () => {
     const { productId } = useParams();
     const [image, setImage] = useState(false);
