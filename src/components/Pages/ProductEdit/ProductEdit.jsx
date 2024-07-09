@@ -4,7 +4,6 @@ import { useParams } from 'react-router-dom'
 import upload_area from '../../../assets/upload_area.svg'
 import './ProductEdit.css'
 import { API_BASE_URL } from '../../../config'
-
 const ProductEdit = () => {
     const { productId } = useParams();
     const [image, setImage] = useState(false);
