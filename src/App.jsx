@@ -6,8 +6,8 @@ function App() {
 
   return (
     <div>
-        <Navbar/>
-        <Admin/>
+      <Navbar />
+      <Admin />
     </div>
   )
 }

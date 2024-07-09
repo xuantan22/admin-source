@@ -1,4 +1,4 @@
-.listusers{
+.listusers {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -10,9 +10,10 @@
     background: white;
 
 }
-.listusers-format-main{
+
+.listusers-format-main {
     display: grid;
-    grid-template-columns: 2fr 3fr 1fr ;
+    grid-template-columns: 2fr 3fr 1fr;
     gap: 5px;
     width: 100%;
     padding: 10px 0px;
@@ -21,15 +22,14 @@
     font-weight: 600;
 
 }
-.listusers-allusers{
+
+.listusers-allusers {
     width: 100%;
 
 }
 
-.listusers-romove-icon{
+.listusers-romove-icon {
     cursor: pointer;
 }
 
-.listusers-format{
-    
-}
+.listusers-format {}

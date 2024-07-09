@@ -1,0 +1,97 @@
+.img-avatar {
+    width: 50px;
+    height: 50px;
+}
+
+table strong {
+    min-width: 70px;
+    display: inline-block;
+}
+
+.uk-flex-space-between {
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.uk-flex-middle {
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.uk-flex {
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+}
+
+
+.filter-warraper {
+    margin-bottom: 20px;
+}
+
+.filter-warraper .perpage {
+    display: inline-block;
+}
+
+.btn {
+    margin-bottom: 0 !important;
+    font-size: 13px;
+    border-radius: 0;
+    height: 32px;
+
+}
+
+.filter-warraper .form-control {
+    height: 32px;
+    max-width: 250px;
+
+}
+
+.mr10 {
+    margin-right: 10px;
+}
+
+.mb30 {
+    margin-bottom: 30px;
+}
+
+.box .inbox {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
+}
+
+.mb10 {
+    margin-bottom: 10px;
+}
+
+.mt10 {
+    margin-top: 10px;
+}
+
+.control-label {
+    display: block;
+}
+
+.panel-title {
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: 500;
+    color: #1a1a1a;
+}
+
+.panel-description {
+    font-size: 15px;
+}
+
+.active-bg {
+    background: #ffc !important;
+}
+
+#checkAll,
+.checkBoxItem {
+    width: 15px;
+    height: 15px;
+}
+
+.admin {
+    min-width: 600px;
+}
